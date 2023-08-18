@@ -841,7 +841,7 @@ p.modal-title {
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px
 }
 
 .modal-input {
@@ -922,6 +922,7 @@ label {
   letter-spacing: 0.48px;
   display: flex;
   align-items: center;
+  margin-bottom: 16px;
 }
 
 .modal-check-link {
