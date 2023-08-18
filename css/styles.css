@@ -701,11 +701,10 @@ address .list {
 
 .footer-form {
   display: flex;
-}
-
-.footer-input-label {
   gap: 24px;
 }
+
+
 
 .footer-input {
   width: 264px;
@@ -730,7 +729,8 @@ address .list {
   text-align: center;
 
 
-  font-family: Roboto;
+  font-family: "Roboto",
+    sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
