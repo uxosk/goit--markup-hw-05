@@ -836,8 +836,12 @@ address .list {
   font-weight: 500;
 }
 
+p.modal-title {
+  margin-bottom: 24px;
+}
+
 .modal-field {
-  margin-bottom: 16px
+  margin-bottom: 8px;
 }
 
 .modal-input {
@@ -859,6 +863,10 @@ address .list {
 
 .modal-input:focus+.modal-icon {
   fill: var(--iris, #4D5AE5);
+}
+
+label {
+  display: block;
 }
 
 .modal-label {
@@ -967,4 +975,5 @@ address .list {
   margin-left: 119px;
   cursor: pointer;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
