@@ -865,9 +865,6 @@ p.modal-title {
   fill: var(--iris, #4D5AE5);
 }
 
-label {
-  display: block;
-}
 
 .modal-label {
   color: var(--lightslate, #8E8F99);
@@ -947,9 +944,7 @@ label {
   border: none;
 }
 
-.modal-check-span {
-  display: inline-flex;
-}
+
 
 .check-icon {
   fill: var(--cloud, #F4F4FD);
