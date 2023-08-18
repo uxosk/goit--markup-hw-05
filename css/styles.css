@@ -918,6 +918,7 @@ address .list {
   letter-spacing: 0.48px;
   align-items: center;
   margin-bottom: 16px;
+  display: block;
 }
 
 .modal-check-link {
