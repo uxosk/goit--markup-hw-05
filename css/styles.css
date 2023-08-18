@@ -920,7 +920,6 @@ label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.48px;
-  display: flex;
   align-items: center;
   margin-bottom: 16px;
 }
