@@ -841,6 +841,9 @@ address .list {
   margin-bottom: 8px;
 }
 
+.modal-field-checkbox {
+  margin-bottom: 24px;
+}
 
 
 .modal-input {
