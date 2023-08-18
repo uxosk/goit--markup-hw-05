@@ -892,20 +892,15 @@ address .list {
 }
 
 .modal-comment {
-  width: 100%;
+  width: 360px;
   height: 120px;
   border-radius: 4px;
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
-  background-color: transparent;
+
+  padding: 8px 0 0 16px;
   outline: transparent;
   resize: none;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 16px;
-  padding: 8px 16px;
 }
 
 .modal-comment:focus {
@@ -918,20 +913,26 @@ address .list {
   font-size: 12px;
 
   font-weight: 400;
-  line-height: 1.17;
+  line-height: 14px;
   letter-spacing: 0.48px;
-  display: block;
+  display: flex;
   align-items: center;
-}
-
-.check-border {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
 }
 
 .model-check-link {
   color: var(--iris, #4D5AE5);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-  fill: transparent;
+
+}
+
+
+
+.model-check-text span {
+  width: 16px;
+  height: 16px;
+  stroke-width: 1px;
+  stroke: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
