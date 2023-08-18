@@ -824,6 +824,10 @@ address .list {
 
 /* -------------- */
 .modal-title {
+  margin-bottom: 24px;
+}
+
+.modal-title-text {
   color: var(--navyblue, #2E2F42);
   text-align: center;
   font-family: Roboto;
@@ -836,7 +840,8 @@ address .list {
 }
 
 .modal-field {
-  margin-bottom: 16px
+  margin-bottom: 8px;
+
 }
 
 .modal-input {
@@ -870,6 +875,7 @@ address .list {
   letter-spacing: 0.48px;
   display: block;
   margin-bottom: 4px;
+
 }
 
 .modal-input-wrap {
